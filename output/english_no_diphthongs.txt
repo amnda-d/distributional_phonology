@@ -1,0 +1,342 @@
+a
+a b d dʒ e f g h i j k l m n o p s t tʃ u v w z æ ð ŋ ɑ ɔ ɛ ɝ ɪ ɹ ʃ ʊ ʌ ʒ θ
+a b d dʒ e f g h j k l m n p s t tʃ v w z ð ŋ ɹ ʃ ʒ θ
+a b d dʒ e f g h j k l m n p s t tʃ v z ð ŋ ʃ ʒ θ
+a b d dʒ e f g h k l m n p s t v w z ð ŋ ɹ ʃ ʒ θ
+a b d dʒ e f g h k l m n p s t v z ð ŋ ʃ ʒ θ
+a b d dʒ e f g j k l m n p s t tʃ v w z ð ɹ ʃ ʒ θ
+a b d dʒ e f g j k l m n p s t tʃ v z ð ɹ ʃ ʒ θ
+a b d dʒ e f g k l m n p s t v w z ð ɹ ʃ ʒ θ
+a b d dʒ e f g k l m n p s t v z ð ɹ ʃ ʒ θ
+a b d dʒ e f g k m n p s t tʃ v z ð ʃ ʒ θ
+a b d dʒ e f g k m n p s t v z ð ʃ ʒ θ
+a b d dʒ e f g k m p s t v z ð ʃ ʒ
+a b d dʒ f g h k l n p s t v z ð ʃ ʒ
+a b d dʒ f g h k p s t v z ð ʃ ʒ
+a b d dʒ f g k l n p s t v z ð ɹ ʃ ʒ
+a b d dʒ f g k m p s t v z ð ʃ ʒ
+a b d dʒ f g k n p s t v z ð ʃ ʒ
+a b d dʒ f g k p s t v z ð ɹ ʃ ʒ
+a b d dʒ f g k p s t v z ð ʃ ʒ
+a b d dʒ f g k p t v z ð ʃ ʒ
+a b f g h k m p
+a b f g h k p
+a b f g k m p
+a b f g k p
+a b f k p
+a d dʒ e l m n s t tʃ v z ð ɹ ʃ ʒ
+a d dʒ e l m n s t tʃ v z ð ɹ ʃ ʒ θ
+a d dʒ e l m n s t tʃ v z ð ʃ ʒ
+a d dʒ e l m n s t tʃ v z ð ʃ ʒ θ
+a d dʒ e l n s t tʃ v z ð ɹ ʃ ʒ
+a d dʒ e l n s t tʃ v z ð ʃ ʒ
+a d dʒ l n s t tʃ ʃ ʒ
+a e
+a e j w
+a g k
+a l
+a m
+b
+b d dʒ f
+b d dʒ f g h k l m n p s t tʃ v z ð ŋ ɹ ʃ ʒ θ
+b d dʒ f g h k l m n p s t tʃ v z ð ŋ ʃ ʒ θ
+b d dʒ f g h k l m n p s t v z ð ŋ ɹ ʃ ʒ θ
+b d dʒ f g h k l m n p s t v z ð ŋ ʃ ʒ θ
+b d dʒ f g h k m n p s t v z ð ŋ ʃ ʒ θ
+b d dʒ f g h k n p s t v z ð ŋ ʃ ʒ θ
+b d dʒ f g h k p s t v z ð ʃ ʒ
+b d dʒ f g j k l m n p s t tʃ v z ð ɹ ʃ ʒ θ
+b d dʒ f g j k l n p s t v z ð ɹ ʃ ʒ
+b d dʒ f g j k p s t v z ð ɹ ʃ ʒ
+b d dʒ f g k l m n p s t tʃ v z ð ɹ ʃ ʒ θ
+b d dʒ f g k l m n p s t v z ð ɹ ʃ ʒ θ
+b d dʒ f g k l n p s t v z ð ɹ ʃ ʒ
+b d dʒ f g k l n p s t v z ð ɹ ʃ ʒ θ
+b d dʒ f g k m n p s t tʃ v z ð ʃ ʒ θ
+b d dʒ f g k m n p s t v z ð ʃ ʒ θ
+b d dʒ f g k m p s t v z ð ʃ ʒ
+b d dʒ f g k n p s t v z ð ʃ ʒ
+b d dʒ f g k n p s t v z ð ʃ ʒ θ
+b d dʒ f g k p s t v z ð ɹ ʃ ʒ
+b d dʒ f g k p s t v z ð ʃ ʒ
+b d dʒ f g k p t v z ð ʃ ʒ
+b d dʒ f h l m p s t v z ð ʃ ʒ θ
+b d dʒ f h l m p s t z ʃ ʒ θ
+b d dʒ f h l n p s t v z ð ʃ ʒ
+b d dʒ f h l p s t v z ð ʃ ʒ
+b d dʒ f h l p s t z ʃ ʒ
+b d dʒ f h m p s t v z ð ʃ ʒ
+b d dʒ f h m p s t v z ð ʃ ʒ θ
+b d dʒ f h m p s t z ʃ ʒ
+b d dʒ f h m p s t z ʃ ʒ θ
+b d dʒ f h p s t v z ð ʃ ʒ
+b d dʒ f h p s t v z ð ʃ ʒ θ
+b d dʒ f h p s t z ʃ ʒ
+b d dʒ f h p s t z ʃ ʒ θ
+b d dʒ f h p t z ʃ ʒ
+b d dʒ f k p s t z ʃ ʒ
+b d dʒ f l m p s t z ð ɹ ʃ ʒ θ
+b d dʒ f m p s t z ð ʃ ʒ θ
+b d dʒ f n p s t v z ð ʃ ʒ
+b d dʒ f p s t v z ð ʃ ʒ
+b d dʒ f p s t z ð ɹ ʃ ʒ
+b d dʒ f p s t z ð ʃ ʒ
+b d dʒ f p s t z ʃ ʒ
+b dʒ
+b dʒ f g s t ʃ
+b f
+b f g h k m p
+b f g h k p
+b f g j k p
+b f g k m p
+b f g k p
+b f g k p ɹ
+b f h m p
+b f h p
+b f k p
+b f m p
+b f p
+b g h
+b m p
+b p
+d
+d dʒ e l m n s t tʃ v w z ð ɹ ʃ ʒ
+d dʒ e l m n s t tʃ v w z ð ɹ ʃ ʒ θ
+d dʒ e l m n s t tʃ v z ð ʃ ʒ
+d dʒ e l m n s t tʃ v z ð ʃ ʒ θ
+d dʒ e l m n s t v z ð ɹ ʃ ʒ θ
+d dʒ e l m n s t v z ð ʃ ʒ θ
+d dʒ e l m s t tʃ ʃ θ
+d dʒ e l n s t v w z ð ɹ ʃ ʒ
+d dʒ e l n s t v z ð ŋ ʃ ʒ θ
+d dʒ e l n s t v z ð ɹ ʃ ʒ
+d dʒ e l n s t v z ð ʃ ʒ
+d dʒ e n s t v z ð ʃ ʒ θ
+d dʒ e s t tʃ ʃ θ
+d dʒ e s t v z ð ʃ ʒ
+d dʒ e s t v z ð ʃ ʒ θ
+d dʒ e s t z ʃ ʒ θ
+d dʒ e s t ʃ ʒ
+d dʒ f s t v z ð ʃ ʒ
+d dʒ f s t z ʃ
+d dʒ l m n s t tʃ v z ð ɹ ʃ ʒ
+d dʒ l m n s t tʃ v z ð ɹ ʃ ʒ θ
+d dʒ l m n s t tʃ v z ð ʃ ʒ
+d dʒ l m n s t tʃ v z ð ʃ ʒ θ
+d dʒ l m n s t v w z ð ɹ ʃ ʒ
+d dʒ l m n s t v z ð ɹ ʃ ʒ
+d dʒ l m n s t v z ð ɹ ʃ ʒ θ
+d dʒ l m n s t v z ð ʃ ʒ
+d dʒ l m n s t v z ð ʃ ʒ θ
+d dʒ l m s t tʃ ʃ θ
+d dʒ l m s t ʃ
+d dʒ l n s t tʃ v z ð ŋ ɹ ʃ ʒ θ
+d dʒ l n s t tʃ v z ð ŋ ʃ ʒ θ
+d dʒ l n s t tʃ v z ð ɹ ʃ ʒ
+d dʒ l n s t tʃ v z ð ɹ ʃ ʒ θ
+d dʒ l n s t tʃ v z ð ʃ ʒ
+d dʒ l n s t tʃ v z ð ʃ ʒ θ
+d dʒ l n s t tʃ ʃ ʒ
+d dʒ l n s t v w z ð ɹ ʃ ʒ
+d dʒ l n s t v z ð ŋ ɹ ʃ ʒ θ
+d dʒ l n s t v z ð ŋ ʃ ʒ θ
+d dʒ l n s t v z ð ɹ ʃ ʒ
+d dʒ l n s t v z ð ɹ ʃ ʒ θ
+d dʒ l n s t v z ð ʃ ʒ
+d dʒ l n s t v z ð ʃ ʒ θ
+d dʒ l n s t ʃ
+d dʒ l s t v z ð ŋ ɹ ʃ ʒ
+d dʒ l s t v z ð ŋ ʃ ʒ
+d dʒ l s t v z ð ɹ ʃ ʒ
+d dʒ l s t v z ð ʃ ʒ
+d dʒ l s t v z ð ʃ ʒ θ
+d dʒ l s t z ð ɹ ʃ ʒ θ
+d dʒ l s t z ɹ ʃ ʒ
+d dʒ l s t z ʃ ʒ
+d dʒ l s t z ʃ ʒ θ
+d dʒ l s t ʃ
+d dʒ m s t ʃ
+d dʒ n s t v z ð ŋ ʃ ʒ θ
+d dʒ n s t v z ð ʃ ʒ
+d dʒ n s t v z ð ʃ ʒ θ
+d dʒ n s t v ð ʃ
+d dʒ n s t z ð ʃ
+d dʒ s t tʃ v z ð ɹ ʃ ʒ
+d dʒ s t tʃ ʃ θ
+d dʒ s t v w z ð ɹ ʃ ʒ
+d dʒ s t v z ð ŋ ʃ ʒ
+d dʒ s t v z ð ɹ ʃ ʒ
+d dʒ s t v z ð ʃ ʒ
+d dʒ s t v z ð ʃ ʒ θ
+d dʒ s t v ð ʃ
+d dʒ s t v ŋ ɹ ʃ ʒ θ
+d dʒ s t z ð ʃ
+d dʒ s t z ð ʃ ʒ
+d dʒ s t z ð ʃ ʒ θ
+d dʒ s t z ʃ
+d dʒ s t z ʃ ʒ
+d dʒ s t z ʃ ʒ θ
+d dʒ s t ð ɹ ʃ
+d dʒ s t ð ʃ
+d dʒ s t ŋ ʃ θ
+d dʒ s t ɹ ʃ
+d dʒ s t ʃ
+d dʒ s t ʃ ʒ
+d dʒ s t ʃ θ
+d dʒ s ʃ
+d dʒ t v w z ð ɹ ʃ ʒ
+d dʒ t v z ð ɹ ʃ ʒ
+d dʒ t v z ð ʃ ʒ
+d dʒ t v z ð ʃ ʒ θ
+d dʒ t z ʃ
+d dʒ t z ʃ ʒ θ
+d dʒ t ʃ
+d dʒ ʒ
+d f
+d f z
+d f z ʃ
+d l s t
+d l ʃ
+d m ʃ
+d s
+d s t
+d s t tʃ z ʃ
+d s ʃ
+d t ð
+d t ð ɹ
+d z
+d z ð ʃ
+d z ʃ
+d ð ʃ
+d ʃ
+d ʒ
+dʒ
+dʒ g s t ʃ
+dʒ l s z ʃ ʒ
+dʒ l s ʃ ʒ
+dʒ l ð ŋ ʒ θ
+dʒ s
+dʒ s t
+dʒ s t ʃ
+dʒ t
+dʒ v z ð ŋ ɹ ʃ ʒ
+dʒ v z ð ŋ ʃ ʒ
+dʒ v z ð ɹ ʃ ʒ
+dʒ v z ð ʃ ʒ
+dʒ v ð ŋ ʃ ʒ
+dʒ z ŋ ɹ ʃ
+dʒ z ŋ ʃ
+dʒ z ɹ ʃ ʒ
+dʒ z ʃ ʒ
+dʒ ð
+dʒ ð θ
+dʒ ɹ
+dʒ ʃ
+e
+e j
+e l
+e m ŋ θ
+e m θ
+e s
+e v z ð
+e w
+e ʒ θ
+f k m p
+f p
+f z
+g
+g h
+g j
+g j k
+g k
+g k l ɹ
+g k n ŋ
+g v ð
+h
+h k
+h k p v ð ʒ
+h l
+h v
+h v ð ʒ
+h ŋ
+h θ
+i o u æ ɑ ɔ ɛ ɝ ɪ ʊ ʌ
+j
+j l
+j l w
+j tʃ
+j w
+k
+k m
+k p
+l
+l m
+l m n
+l m n s
+l m tʃ θ
+l m θ
+l n
+l n tʃ
+l n θ
+l s
+l v z ð ʒ θ
+l v ʒ
+l w
+l z
+l θ
+m
+m tʃ
+m tʃ θ
+m v z ð
+m z
+m ŋ θ
+m θ
+n
+n s t tʃ v ʃ
+n tʃ
+n tʃ v
+n tʃ θ
+n v ð
+n ð
+n ŋ
+n θ
+p
+p s t z ʃ ʒ
+p v ð
+s
+s t
+s t v ʃ
+s t ʃ
+s ʃ
+t
+t ʃ
+t ʒ
+t ʒ θ
+tʃ
+tʃ v ð
+tʃ v ð ʒ
+tʃ w θ
+tʃ θ
+v
+v z ð
+v z ð ʒ
+v z ð ʒ θ
+v z ʒ
+v ð
+v ð ʒ
+v ʒ
+w
+w ɹ
+z
+z ð
+z ŋ
+z ʒ
+ð
+ŋ
+ŋ ʒ
+ŋ θ
+ɹ
+ʃ
+ʒ
+ʒ θ
+θ

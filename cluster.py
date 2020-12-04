@@ -19,11 +19,12 @@ def find_classes(ppmi, vocab, classes = set(),  max_k = 3, max_pcs = None):
         for c in clusters:
             if c not in classes:
                 classes.add(c)
+                # print('\tnew class: ', c)
                 if len(c) > 1:
                     c_idx = [vocab[x] for x in c]
                     subset = ppmi[c_idx, :]
                     subvocab = { k: v for v, k in enumerate(sorted(c))}
-                    classes.update(find_classes(subset, subvocab))
+                    classes.update(find_classes(subset, subvocab, set([tuple(subvocab.keys())])))
     return classes
 
 def cluster(pca_col, max_k):
@@ -34,24 +35,10 @@ def cluster(pca_col, max_k):
         kmeans = KMeans(n_clusters = k)
         clustering = kmeans.fit(pca_col)
         cl_bic = compute_bic(clustering, pca_col)
-        if cl_bic > max_bic:
+        if cl_bic > max_bic or best_kmeans is None:
             max_bic = cl_bic
             best_kmeans = clustering
     return best_kmeans
-
-def bic2(kmeans, X):
-    centers = [kmeans.cluster_centers_]
-    labels  = kmeans.labels_
-    #number of clusters
-    m = kmeans.n_clusters
-    # size of the clusters
-    n = np.bincount(labels)
-    #size of data set
-    N, d = X.shape
-
-    var = (1.0 / ((N - m) / d)) * sum([sum(distance.cdist(X[np.where(labels == i)], [centers[0][i]], 'euclidean')**2) for i in range(m)]) if (N - m) != 0 else 0.0
-
-    means = kmeans.cluster_centers_
 
 def calculate_mean_and_variance(X, n):
     '''
@@ -76,6 +63,11 @@ def calculate_mean_and_variance(X, n):
     return mean, variance
 
 def compute_bic(kmeans, X):
+    """
+    From https://github.com/connormayer/distributional_learning/blob/master/code/clusterer.py#L66
+
+    Implementing BIC as defined results in an error when number of elements = number of clusters. Mayer's solution is to replace variance with the minimum distance to a point in another cluster.
+    """
     centers = [kmeans.cluster_centers_]
     labels  = kmeans.labels_
     # number of clusters
@@ -151,7 +143,7 @@ def bic(kmeans, X):
     N, d = X.shape
 
     #compute variance for all clusters beforehand
-    cl_var = (1.0 / ((N - m) / d)) * sum([sum(distance.cdist(X[np.where(labels == i)], [centers[0][i]], 'euclidean')**2) for i in range(m)])
+    cl_var = (1.0 / ((N - m) / d)) * sum([sum(distance.cdist(X[np.where(labels == i)], [centers[0][i]], 'euclidean')**2) for i in range(m)]) if (N-m) > 0 else 0.0
 
 
     const_term = 0.5 * m * np.log(N) * (d+1)

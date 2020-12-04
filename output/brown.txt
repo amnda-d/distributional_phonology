@@ -1,0 +1,30 @@
+aɪ aʊ b d dʒ e eɪ f g h i j k l m n oʊ p r s t tʃ u v w z æ ð ŋ ɑ ɔ ɔɪ ɜr ɪ ʃ ʊ ʌ ʒ θ
+aɪ aʊ e eɪ i oʊ u æ ɑ ɔ ɔɪ ɜr ɪ ʊ ʌ
+b
+b d dʒ f g h j k l m n p r s t tʃ v w z ð ŋ ʃ ʒ
+b d dʒ f g h j k l m n p r s t tʃ v w z ð ŋ ʃ ʒ θ
+b d dʒ f g h k l m n p r s t tʃ v w z ð ŋ ʃ ʒ
+b d dʒ f g h k l m n p r s t tʃ v w z ð ŋ ʃ ʒ θ
+b d dʒ f g j k m n p s t tʃ v z ð ŋ ʃ ʒ
+b d dʒ f g j k m n p s t tʃ v z ð ŋ ʃ ʒ θ
+b d dʒ f g k m n p s t tʃ v z ð ŋ ʃ ʒ
+b d dʒ f g k m n p s t tʃ v z ð ŋ ʃ ʒ θ
+b f g j p
+b f g k p
+b f g p
+b f p
+d dʒ k m n s t tʃ v z ð ŋ ʃ ʒ
+d dʒ k m n s t tʃ v z ð ŋ ʃ ʒ θ
+d dʒ m n s t tʃ v z ð ŋ ʃ ʒ
+d dʒ m n s t tʃ v z ð ŋ ʃ ʒ θ
+f p
+g
+g k
+h l r w
+h l w
+h w
+j
+l
+l r
+r
+θ
