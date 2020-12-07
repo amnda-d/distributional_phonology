@@ -4,20 +4,18 @@ a e i o u
 b
 b d g
 b d g k p r t
+b p
 d
 d g
-d g k r t
-d k
+d g k t
 e
 e i
 e o
 g
-g t
 i
 i u
 k
 k p t
-k t
 o
 o u
 p

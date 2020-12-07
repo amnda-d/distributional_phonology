@@ -4,8 +4,8 @@ from sklearn.cluster import KMeans
 from scipy.spatial import distance
 from pca import get_pcs
 
-def find_classes(ppmi, vocab, classes = set(),  max_k = 3, max_pcs = None):
-    _, pcas = get_pcs(ppmi)
+def find_classes(ppmi, vocab, classes = set(),  max_k = 3, max_pcs = None, scalar=1.0):
+    _, pcas = get_pcs(ppmi, scalar=scalar)
     if max_pcs:
         pcas = pcas[:, :max_pcs]
     if pcas.shape[0] == 0 or pcas.shape[0] == 1:
@@ -24,7 +24,7 @@ def find_classes(ppmi, vocab, classes = set(),  max_k = 3, max_pcs = None):
                     c_idx = [vocab[x] for x in c]
                     subset = ppmi[c_idx, :]
                     subvocab = { k: v for v, k in enumerate(sorted(c))}
-                    classes.update(find_classes(subset, subvocab, set([tuple(subvocab.keys())])))
+                    classes.update(find_classes(subset, subvocab, set([tuple(subvocab.keys())]), scalar=scalar))
     return classes
 
 def cluster(pca_col, max_k):

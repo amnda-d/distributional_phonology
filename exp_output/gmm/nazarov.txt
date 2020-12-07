@@ -1,0 +1,11 @@
+N a b d g i k m n p t u
+N b d g k m n p t
+N n
+a
+a i u
+b d g k p t
+b m p
+b p
+d g k t
+i u
+m

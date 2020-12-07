@@ -1,0 +1,41 @@
+f
+f h k l m n p r s t v ŋ ʔ
+f h k l m n p s t v ŋ ʔ
+f h k l m p s t ŋ ʔ
+f h l m n p s t v ŋ ʔ
+f h l m p s t ŋ ʔ
+f h l m s t ʔ
+f h l m t ʔ
+f h m p t
+f h m p t ʔ
+f l m p t ŋ ʔ
+f l m p t ʔ
+f l m t
+f l m t ʔ
+f l t ʔ
+f m
+f m p t ʔ
+f m t
+f m t ʔ
+f t
+f ʔ
+h
+h p
+h s
+k
+k l s ŋ ʔ
+l
+l s
+l s ŋ
+l ŋ ʔ
+m
+n
+n v
+p
+r
+s
+t
+v
+ŋ
+ŋ ʔ
+ʔ

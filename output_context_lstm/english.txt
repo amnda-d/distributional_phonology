@@ -1,5 +1,0 @@
-aɪ aʊ b d dʒ eɪ f g h i j k l m n o p s t tʃ u v w z æ ð ŋ ɑ ɔ ɔɪ ɛ ɝ ɪ ɹ ʃ ʊ ʌ ʒ θ
-aɪ b d eɪ f h i j k l m n o p s t tʃ w z æ ɛ ɝ ɪ ɹ ʃ ʊ ʌ θ
-aʊ dʒ g u v ð ŋ ɑ ɔ ɔɪ ʒ
-aʊ dʒ g u v ð ɑ ɔ ʒ
-ŋ ɔɪ

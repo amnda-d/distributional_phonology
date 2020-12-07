@@ -1,19 +1,20 @@
+import os
+import errno
 import numpy as np
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from vectorize import vectorize
 from ppmi import vecs_to_ppmi
-from pca import get_pcs
 from gmm_cluster import find_classes
 
 DATASETS = [
     'brown',
     # 'english_no_diphthongs',
-    # 'english',
-    # 'finnish_no_cons',
-    # 'finnish',
-    # 'french',
-    # 'nazarov',
+    'english',
+    'finnish_no_cons',
+    'finnish',
+    'french',
+    'nazarov',
     'parupa',
     'samoan_no_vowels',
     'samoan'
@@ -22,7 +23,15 @@ DATASETS = [
 for d in DATASETS:
     print('processing ' + d + ' dataset')
     data = 'corpora/' + d + '.txt'
-    output = 'output_gmm/' + d + '.txt'
+
+    if not os.path.exists(os.path.dirname('exp_output/gmm/')):
+        try:
+            os.makedirs(os.path.dirname('exp_output/gmm/'))
+        except OSError as exc: # Guard against race condition
+            if exc.errno != errno.EEXIST:
+                raise
+
+    output = 'exp_output/gmm/' + d + '.txt'
 
     """
     1. Vector Embedding
@@ -42,7 +51,7 @@ for d in DATASETS:
     3. PCA and Clustering
     """
     print('\tclustering...', output)
-    cls = find_classes(ppmi, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1)
+    cls = find_classes(ppmi, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1, scalar=1.3)
     with open(output, 'w') as out:
         for cl in sorted(cls):
             out.write(' '.join(cl) + '\n')

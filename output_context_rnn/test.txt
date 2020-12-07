@@ -1,6 +1,0 @@
-a b i j k r t y
-a i
-b
-b j k r t y
-j t
-k r y

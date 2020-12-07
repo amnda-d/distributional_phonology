@@ -1,9 +1,10 @@
+import os
+import errno
 import numpy as np
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from vectorize import vectorize
 from ppmi import vecs_to_ppmi
-from pca import get_pcs
 from cluster import find_classes
 
 DATASETS = [
@@ -15,14 +16,21 @@ DATASETS = [
     # 'french',
     # 'nazarov',
     'parupa',
-    'samoan_no_vowels',
-    'samoan'
+    # 'samoan_no_vowels',
+    # 'samoan'
 ]
 
 for d in DATASETS:
     print('processing ' + d + ' dataset')
     data = 'corpora/' + d + '.txt'
-    output = 'output_no_unique/' + d + '.txt'
+    if not os.path.exists(os.path.dirname('exp_output/no_unique/')):
+        try:
+            os.makedirs(os.path.dirname('exp_output/no_unique/'))
+        except OSError as exc: # Guard against race condition
+            if exc.errno != errno.EEXIST:
+                raise
+
+    output = 'exp_output/no_unique/' + d + '.txt'
 
     """
     1. Vector Embedding
@@ -42,7 +50,7 @@ for d in DATASETS:
     3. PCA and Clustering
     """
     print('\tclustering...', output)
-    cls = find_classes(ppmi, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1)
+    cls = find_classes(ppmi, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1, scalar=1.3)
     with open(output, 'w') as out:
         for cl in sorted(cls):
             out.write(' '.join(cl) + '\n')

@@ -1,9 +1,10 @@
+import os
+import errno
 import numpy as np
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from vectorize import vectorize
 from ppmi import vecs_to_ppmi
-from pca import get_pcs
 from cluster import find_classes
 
 DATASETS = [
@@ -22,7 +23,15 @@ DATASETS = [
 for d in DATASETS:
     print('processing ' + d + ' dataset')
     data = 'corpora/' + d + '.txt'
-    output = 'output/' + d + '.txt'
+
+    if not os.path.exists(os.path.dirname('exp_output/reproduction/')):
+        try:
+            os.makedirs(os.path.dirname('exp_output/reproduction/'))
+        except OSError as exc: # Guard against race condition
+            if exc.errno != errno.EEXIST:
+                raise
+
+    output = 'exp_output/reproduction/' + d + '.txt'
 
     """
     1. Vector Embedding

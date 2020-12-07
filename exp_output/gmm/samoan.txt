@@ -4,59 +4,49 @@ a a: e e: f h i i: k l m n o o: p r s t u u: v ŋ ʔ
 a a: e e: i i: o o: u u:
 a a: e i i: o u u:
 a a: e i o u
+a a: e o
 a a: i o u
-a a: i: o u
-a a: u
-a u:
+a a: i:
 a:
-a: i:
+a: e
 e
-e e: i i: o o: u
-e i
-e i i: o u
 e i o u
 e i o u u:
-e i u
+e u
 e:
-e: i: u:
+e: i: o: u:
 f
-f h
 f h k l m n p r s t v ŋ ʔ
-f h k l m n p s t v ŋ ʔ
-f h k m t v ŋ ʔ
-f h l m n p s t v ŋ ʔ
-f h t v ʔ
+f h m s t v ʔ
+f h m t v ʔ
+f h m v ʔ
+f h v ʔ
 f h ʔ
 h
+h v
 h ʔ
 i
 i o u
 i u
+i u u:
 i:
-i: o
-i: o:
+i: u:
 k
+k l n p ŋ
+k n ŋ
 l
-l n p s
-l n s
-l n s v ŋ ʔ
+l n ŋ
 m
-m p t
-m ŋ
+m t
 n
-n s
 o
-o u
-o u u:
 o:
 p
 r
 s
 t
-t v
 u
 u:
 v
-v ʔ
 ŋ
 ʔ
