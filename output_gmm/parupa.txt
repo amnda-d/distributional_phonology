@@ -1,0 +1,26 @@
+a
+a b d e g i k o p r t u
+a e i o u
+b
+b d g
+b d g k p r t
+d
+d g
+d g k r t
+d k
+e
+e i
+e o
+g
+g t
+i
+i u
+k
+k p t
+k t
+o
+o u
+p
+r
+t
+u

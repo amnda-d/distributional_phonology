@@ -1,5 +1,42 @@
-a p
-p a p
-a a p
-a p p
-p a p a p
+a b
+a r
+a t
+a y
+a j
+a k
+a k j
+a y t
+a t r
+a b t
+a k t
+a
+a b j
+a j b
+a t y
+a t j b y
+a k b j k
+a y b k
+a b j t
+a t y y
+a y r b
+i b
+i r
+i t
+i y
+i j
+i k
+i k j
+i y t
+i t r
+i b t
+i k t
+i
+i b j
+i j b
+i t y
+i t j b y
+i k b j k
+i y b k
+i b j t
+i t y y
+i y r b
