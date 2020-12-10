@@ -14,6 +14,8 @@ class ContextRNN(nn.Module):
         super(ContextRNN, self).__init__()
         self.vocab_size = len(vocab.keys())
         self.vocab = vocab
+        self.idx_to_vocab = {i: v for i, v in enumerate(vocab)}
+        self.idx_to_vocab[self.vocab_size] = '#'
         self.window_size = window_size
         self.hidden = hidden
         self.embeddings = nn.Embedding.from_pretrained(torch.eye(self.vocab_size + 1))
@@ -49,6 +51,11 @@ class ContextRNN(nn.Module):
         x = x.view((x.shape[0], x.shape[1], self.vocab_size+1, self.window_size*2))
         # shape: (batch, vocab, len, window)
         return F.log_softmax(x, dim=2).permute(1, 2, 0, 3).contiguous()
+
+    def forward_to_word(self, word):
+        out = torch.argmax(self.forward(word)[0], dim=0)
+        print(out, self.idx_to_vocab)
+        return [[self.idx_to_vocab[w.item()] for w in c] for c in out]
 
     def init_hidden(self, x):
         return torch.randn((2, x.shape[1], self.hidden))
@@ -134,5 +141,5 @@ def get_rnn_embeddings(data, vocab, window_size, max_epochs, vecspath):
             best_eval = eval
             best_vecs = vecs
         np.save('{}_{}.npy'.format(vecspath, epochs), vecs)
-
+    print(model.forward_to_word('p a r u p a'))
     return best_vecs

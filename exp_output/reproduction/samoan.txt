@@ -1,5 +1,5 @@
-a a:
 a a: e e: f h i i: k l m n o o: p r s t u u: v ŋ ʔ
+a a:
 a a: e e: i i: o o: u u:
 a a: e i o u
 e i o u

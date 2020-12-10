@@ -2,21 +2,21 @@ import os
 import errno
 import numpy as np
 from vectorize import get_vocab, get_dataset
-from cluster import find_classes
+from gmm_cluster import find_classes
 from rnn_embedding import get_rnn_embeddings
 
 DATASETS = [
-    # 'brown',
+    'brown',
     # 'english_no_diphthongs',
-    'english',
-    'finnish_no_cons',
-    'finnish',
-    'french',
-    'nazarov',
+    # 'english',
+    # 'finnish_no_cons',
+    # 'finnish',
+    # 'french',
+    # 'nazarov',
     'parupa',
-    'samoan_no_vowels',
-    'samoan'
-    'test'
+    # 'samoan_no_vowels',
+    # 'samoan'
+    # 'test'
 ]
 
 for d in DATASETS:
@@ -31,21 +31,24 @@ for d in DATASETS:
 
     output = 'exp_output/rnn/' + d + '.txt'
     vecsfile = 'exp_output/rnn/vecs/' + d + '.npy'
+    # output = 'test.txt'
+    # vecsfile = 'test.npy'
 
     vocab = get_vocab(data)
     dataset = get_dataset(data, unique=False)
 
     vecs = get_rnn_embeddings(dataset, vocab, 2, 20, vecspath = 'exp_output/rnn/vecs/' + d)
+    # vecs = get_rnn_embeddings(dataset, vocab, 2, 20, vecspath = 'test/')
 
     np.save(vecsfile, vecs)
 
-    # vecs = np.load('context_rnn_vecs/brown_1.npy')
+    # vecs = np.load('exp_output/rnn/vecs/brown.npy')
 
     """
     3. PCA and Clustering
     """
     print('\tclustering...', output)
-    cls = find_classes(vecs, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1)
+    cls = find_classes(vecs, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1, scalar=1.0)
     with open(output, 'w') as out:
         for cl in sorted(cls):
             print(' '.join(cl))

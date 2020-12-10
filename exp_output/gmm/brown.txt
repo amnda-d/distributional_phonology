@@ -5,108 +5,86 @@ aɪ aʊ eɪ i oʊ ɔɪ ɪ ʌ
 b
 b d dʒ f g h j k l m n p r s t tʃ v w z ð ŋ ʃ ʒ θ
 b d dʒ f g h k l m n p r s t tʃ v w z ð ŋ ʃ ʒ θ
-b d dʒ f g j k m n p s t tʃ v z ð ŋ ʃ ʒ θ
 b d dʒ f g k m n p s t tʃ v z ð ŋ ʃ ʒ θ
 b d dʒ f h l m n p r s t tʃ v w z ð ŋ ʃ ʒ θ
 b d dʒ f m n p s t tʃ v z ð ŋ ʃ ʒ θ
-b d dʒ f m p s t tʃ v z ð ŋ ʃ ʒ θ
-b d f m p s z ŋ θ
-b d f p s t z ŋ ʃ
-b d f p s t z ŋ ʃ θ
+b d f m p s t z ŋ θ
+b d m s z ŋ
 b dʒ f n p s t tʃ ŋ ʃ ʒ θ
 b dʒ f p s t tʃ ŋ ʃ ʒ θ
 b dʒ tʃ ʃ ʒ
-b f g j k p
 b f g k m p
-b f m p
-b g k p
+b f m p v
+b f p
 d
-d dʒ m n s t tʃ v z ð ŋ ʃ ʒ
-d dʒ m n s t tʃ v z ð ŋ ʃ ʒ θ
 d dʒ n s t tʃ v z ð ŋ ʃ ʒ
 d dʒ n s t tʃ v z ð ŋ ʃ ʒ θ
-d dʒ s t tʃ v z ð ŋ ʃ ʒ
-d dʒ s t tʃ v z ð ŋ ʃ ʒ θ
+d dʒ n s t tʃ z ð ŋ ʃ ʒ
+d dʒ n s t tʃ z ð ŋ ʃ ʒ θ
 d dʒ t tʃ v ð ʃ ʒ
-d dʒ t tʃ ð ʒ
-d dʒ t z ð ʒ
-d dʒ t z ð ʒ θ
 d dʒ t ð ʃ ʒ
 d m
-d m s z ŋ
-d m s z ŋ θ
-d m z
 d m z ð
-d s t z ŋ ʃ
-d s t z ŋ ʃ θ
-d s t z ʃ
+d s t z ŋ θ
+d s z ŋ
 d s z ŋ θ
 d t ð
-d v z ð ŋ
 d z
 d z ð
 d z ð θ
 d z ŋ
-d z θ
 dʒ
-dʒ m tʃ ð ʒ
 dʒ n s t tʃ ŋ ʃ ʒ
 dʒ n s t tʃ ŋ ʃ ʒ θ
 dʒ n s tʃ ŋ ʃ ʒ
+dʒ s t tʃ ŋ ʃ ʒ
 dʒ s t tʃ ŋ ʃ ʒ θ
-dʒ s t ʃ ʒ
+dʒ s t ŋ ʃ ʒ θ
+dʒ s ŋ ʃ ʒ
 dʒ t tʃ v ð ʃ ʒ
 dʒ t tʃ ð ʃ ʒ
 dʒ t tʃ ʃ ʒ
 dʒ t ʃ ʒ
+dʒ tʃ v ð ʃ ʒ
 dʒ tʃ ʃ ʒ
-dʒ ð ʒ
 dʒ ʃ
 dʒ ʃ ʒ
 dʒ ʒ
 e
 e æ ɑ
 f
-f j p
 f m p
 f p
 f p s t ŋ
+f p t
 g
 g j k
 g k
-g k n
 h
+h j l w
 h l w
+h w
 j
+j w
 k
 l
 m
-m s z ŋ
+m v
 n
 p
 r
 s
-s t
 s t ŋ
-s t ŋ ʃ θ
-s t ʃ
-s tʃ ŋ ʃ
 s z ŋ
-s z ŋ ʃ
 s ŋ
-s ŋ ʃ
-s ŋ θ
-s ʃ
 t
 t tʃ
 tʃ
 tʃ ð
-tʃ θ
 u
 v
 w
 z
-z ŋ
 z θ
 æ
 ð

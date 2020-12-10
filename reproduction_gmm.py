@@ -8,16 +8,16 @@ from ppmi import vecs_to_ppmi
 from gmm_cluster import find_classes
 
 DATASETS = [
-    'brown',
+    'brown', #scalar=1.3
     # 'english_no_diphthongs',
-    'english',
-    'finnish_no_cons',
-    'finnish',
-    'french',
-    'nazarov',
+    # 'english',
+    # 'finnish_no_cons',
+    # 'finnish',
+    # 'french',
+    # 'nazarov',
     'parupa',
-    'samoan_no_vowels',
-    'samoan'
+    # 'samoan_no_vowels',
+    # 'samoan'
 ]
 
 for d in DATASETS:
@@ -51,7 +51,7 @@ for d in DATASETS:
     3. PCA and Clustering
     """
     print('\tclustering...', output)
-    cls = find_classes(ppmi, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1, scalar=1.3)
+    cls = find_classes(ppmi, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1, scalar=1.0)
     with open(output, 'w') as out:
         for cl in sorted(cls):
             out.write(' '.join(cl) + '\n')

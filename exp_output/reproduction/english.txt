@@ -3,12 +3,8 @@ aɪ aʊ eɪ i o u æ ɑ ɔ ɔɪ ɛ ɝ ɪ ʊ ʌ
 aɪ aʊ eɪ i o u æ ɑ ɔɪ ɛ ɪ ʌ
 aɪ aʊ eɪ i u æ ɑ ɔɪ ɛ ɪ ʌ
 aɪ aʊ eɪ i ɔɪ
-aɪ aʊ i u æ ɑ ɔ ɔɪ ɛ ɝ ʊ ʌ
-aɪ aʊ i æ ɑ ɔ ɔɪ ɛ ʊ ʌ
 aɪ aʊ i ɔɪ
-aɪ aʊ i ɔɪ ʌ
 aɪ i
-aɪ ɔɪ
 aʊ
 b
 b d dʒ f g h j k l m n p s t tʃ v w z ð ŋ ɹ ʃ ʒ θ
@@ -20,22 +16,17 @@ d dʒ g k m n s t tʃ v z ð ŋ ʃ ʒ θ
 d dʒ m n s t tʃ v z ð ŋ ʃ ʒ θ
 eɪ
 eɪ ɔɪ
-eɪ ɪ
 f p
 g k
 h l
-i ʌ
 j
 o
 u
 u æ ɑ ɛ ɪ ʌ
 w ɹ
-æ ɑ ɔ ɛ ʊ
 æ ɑ ɛ ɪ ʌ
 æ ɛ ɪ ʌ
-æ ɛ ʊ
 ɑ
-ɑ ɔ
 ɔ ɝ ʊ
 ɔ ʊ
 ɔɪ

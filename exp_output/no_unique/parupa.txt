@@ -1,5 +1,5 @@
-a
 a b d e g i k o p r t u
+a
 a e i o u
 b
 b d g

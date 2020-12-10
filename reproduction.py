@@ -8,16 +8,15 @@ from ppmi import vecs_to_ppmi
 from cluster import find_classes
 
 DATASETS = [
-    'brown',
-    # 'english_no_diphthongs',
-    'english',
-    'finnish_no_cons',
-    'finnish',
-    'french',
-    'nazarov',
-    'parupa',
-    'samoan_no_vowels',
-    'samoan'
+    'brown', #scalar=1.3
+    # 'english', #scalar=1.1
+    # 'finnish_no_cons',
+    # 'finnish', #scalar=1.2
+    # 'french', #scalar=1.7
+    # 'nazarov',
+    # 'parupa',
+    # 'samoan_no_vowels', #scalar=1.3
+    # 'samoan'
 ]
 
 for d in DATASETS:
@@ -51,7 +50,7 @@ for d in DATASETS:
     3. PCA and Clustering
     """
     print('\tclustering...', output)
-    cls = find_classes(ppmi, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1)
+    cls = find_classes(ppmi, vocab, set([tuple(vocab.keys())]), max_k=2, max_pcs=1, scalar=1.3)
     with open(output, 'w') as out:
         for cl in sorted(cls):
             out.write(' '.join(cl) + '\n')
